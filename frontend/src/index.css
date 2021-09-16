@@ -34,16 +34,23 @@ small{
   background-color: firebrick;
   border: 1px solid #ddd;
   border-radius: 20px;
+  background-color: darkgray;
 }
 
 .form{
   display: grid;
+  margin-top: 20px;
+  background-color: darkgray;
+  border-radius: 20px;
+  border: 1px solid #ddd;
 }
 
 .label{
-  font-size: 1.8rem;
+  margin-top: 10px;
+  font-size: 2rem;
   margin-bottom: 0.2rem;
   text-transform: uppercase;
+  background-color: darkgray;
 }
 
 .input{
@@ -79,14 +86,20 @@ small{
   background-color: darkgrey;
 }
 
+.card--desc{
+  background-color: darkgray;
+}
+
 
 .card-list{
   margin-top: 2rem;
+  background-color: darkgrey;
 }
 
 .card--title{
   margin-bottom: 0.5rem;
   font-size: 3.2rem;
+  background-color: darkgrey;
 }
 
 .card--img{
@@ -99,6 +112,8 @@ small{
     grid-template-columns: auto 1fr auto;
     grid-gap: 1rem;
     align-items: center;
+    border : 2px solid black;
+    border-radius: 10px;
   }
 
   .input{
